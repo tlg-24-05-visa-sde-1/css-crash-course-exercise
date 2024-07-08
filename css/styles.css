@@ -21,7 +21,7 @@ body {
 
 /* 
 TODO: Use an Attribute Selector to select disabled buttons and give them the following CSS Rule */
-[disabled] {
+button[disabled] {
   background-color: #e74c3c;
   color: #fff;
   cursor: not-allowed;
